@@ -1,6 +1,4 @@
-.form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
+.mat-form-field-appearance-fill .mat-form-field-infix {
+  border-radius: 20px;
+  background-color: #f2f2f2;
+}

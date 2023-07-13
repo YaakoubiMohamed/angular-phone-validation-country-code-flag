@@ -5,7 +5,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
+import { NgxMatIntlTelInputComponent } from 'ngx-mat-intl-tel-input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+import { MatDividerModule } from '@angular/material/divider';
 
 @NgModule({
   declarations: [
@@ -17,7 +21,11 @@ import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    NgxIntlTelInputModule
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule,
+    MatDividerModule,
+    NgxMatIntlTelInputComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
